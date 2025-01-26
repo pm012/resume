@@ -6,6 +6,11 @@ body {
 
 }
 
+ul, ol {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 /* Main content*/
 .main-content {
     padding-left: 88px;
@@ -18,7 +23,132 @@ body {
 .wrapper {
     background-color: #ffffff;
     display: flex;
+    width: 1200px;
     flex-direction: row-reverse;
+    margin: 0 auto;
+}
+/* My info */
+.my-profession {    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 121%;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.my-name {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 122%;
+    color: #000;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.my-descr{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #595959;    
+}
+
+.my-info{
+    margin-bottom: 40px;
+
+}
+
+/* My Projects */
+.my-projects-container{
+    margin-bottom: 40px;
+}
+
+.my-projects-title {    
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 123%;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.my-projects-list {
+    padding-left: 16px;
+
+}
+
+.my-projects-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 171%;
+    color: #000;
+}
+
+.my-projects-item-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #005fff;
+}
+
+.my-projects-item-tech {    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #595959;
+}
+
+/* Work Experience */
+
+.work-experience-container {
+    margin-bottom: 12px;
+}
+
+.work-experience-title {    
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 123%;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.work-experience-company {    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.work-experience-period {    
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 125%;
+    color: #a8a8a8;
+    margin-bottom: 8px;
+}
+
+.work-experience-period-separator {
+    color: #000;
+}
+
+.company-name {
+    color: #6d9bf5;
+}
+
+.work-experience-duties-list {
+    padding-left: 16px;    
+}
+
+.work-experience-duties-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #595959;
 }
 
 /* Sidebar */
@@ -99,6 +229,8 @@ margin-bottom: 8px;
     line-height: 24px;
     color: #161d2a;
 }
+
+
 
 
 
