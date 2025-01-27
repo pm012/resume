@@ -103,6 +103,10 @@ ul, ol {
 /* Work Experience */
 
 .work-experience-container {
+    margin-bottom: 40px;
+}
+
+.work-experience-company-container {
     margin-bottom: 12px;
 }
 
